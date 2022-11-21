@@ -1,0 +1,437 @@
+@media (max-width:990px) {
+    .banner-info h3 {
+        font-size: 2.6vw;
+    }
+
+    .banner-info h2 {
+        font-size: 2.6vw;
+    }
+
+    .center {
+        width: var(--container-width-sm);
+    }
+
+
+    .cards-div {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .form-div {
+        width: 50%;
+    }
+
+    .about-cards-div {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 800px) {
+    .banner-info h3 {
+        font-size: 2.6vw;
+    }
+
+    .banner-info h2 {
+        font-size: 2.6vw;
+    }
+
+    .center {
+        width: var(--container-width-md);
+    }
+
+    .form-div {
+        width: 50%;
+    }
+
+    .cards-div {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .card p {
+        padding-top: 2%;
+        font-size: 0.85rem;
+    }
+
+    .about-cards-div {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .card-hobbie p {
+        padding-top: 2%;
+        font-size: 0.70rem;
+    }
+
+    .projects-box {
+        height: 257px;
+    }
+}
+
+@media (max-width: 769px) {
+    .banner-info h3 {
+        font-size: 3.6vw;
+    }
+
+    .banner-info h2 {
+        font-size: 3.6vw;
+    }
+
+    .center {
+        width: var(--container-width-md);
+    }
+
+    .form-div {
+        width: 65%;
+    }
+
+    .cards-div {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .card p {
+        padding-top: 2%;
+        font-size: 0.85rem;
+    }
+
+    .about-cards-div {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .projects-box {
+        height: 257px;
+    }
+
+    .projects-box-div {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 680px) {
+    .banner {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner-img-div {
+        width: 100%;
+    }
+
+    .banner-info {
+        width: 100%;
+        margin-top: 50vw;
+    }
+
+    .banner-img {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 50%;
+    }
+
+    .banner-info h2 {
+        font-size: 3.6vw;
+    }
+
+    .banner-info h1 {
+        font-size: 6vw;
+    }
+
+    .services {
+        font-size: 6vw;
+    }
+
+    .hobbies {
+        font-size: 6vw;
+    }
+
+    .formation {
+        font-size: 6vw;
+    }
+
+    .project {
+        font-size: 6vw;
+    }
+
+    .contact {
+        font-size: 6vw;
+    }
+
+    .banner-info h3 {
+        font-size: 3.6vw;
+    }
+
+    .start-btn, .login-btn {
+        height: 2.5rem;
+    }
+
+    .cards-div {
+        display: grid;
+        font-size: 1.90vw;
+    }
+
+
+    .cards-div-hobbie {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .cards-div-hobbie {
+        display: grid;
+        font-size: 1.95vw;
+        gap: 1rem;
+    }
+
+    .about-cards-div {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+
+    .card-about {
+        height: 10.75rem;
+    }
+
+    .card-about h1 {
+        padding-top: 12%;
+        font-size: 1rem;
+    }
+
+    .card-about p {
+        padding-top: 2%;
+        font-size: 0.84rem;
+
+    }
+
+    .card-icon {
+        font-size: 0.6rem;
+    }
+
+    .projects-box-div {
+        grid-template-columns: 1fr;
+    }
+
+    .form-div {
+        width: 65%;
+    }
+
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer-second {
+        margin-top: 1.875rem;
+    }
+
+    .link a {
+        display: none;
+    }
+
+    .link .more {
+        display: block;
+        font-size: 2vw;
+    }
+
+    .link {
+        width: auto;
+    }
+
+}
+
+@media (max-width: 620px) {
+    .banner-info h3 {
+        font-size: 3.6vw;
+    }
+
+    .banner-info h2 {
+        font-size: 3.6vw;
+    }
+
+    .cards-div {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .cards-div {
+        display: grid;
+        font-size: 2.40vw;
+    }
+
+    .card p {
+        padding-top: 2%;
+        font-size: 0.85rem;
+    }
+
+    .cards-div-hobbie {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .cards-div-hobbie {
+        display: grid;
+        font-size: 2.40vw;
+    }
+
+
+    .about-cards-div {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card-about h1 {
+        padding-top: 12%;
+        font-size: 1rem;
+    }
+
+    .card-about p {
+        padding-top: 2%;
+        font-size: 0.8rem;
+    }
+
+    .card-icon {
+        font-size: 0.7rem;
+    }
+
+
+    .projects-box-div {
+        grid-template-columns: 1fr;
+    }
+
+    .form-div {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .banner-info h3 {
+        font-size: 4.6vw;
+    }
+
+    .banner-info h2 {
+        font-size: 4.6vw;
+    }
+
+    .cards-div {
+        grid-template-columns: 1fr;
+    }
+
+    .cards-div {
+        display: grid;
+        font-size: 3.10vw;
+    }
+
+    .cards-div-hobbie {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .cards-div-hobbie {
+        display: grid;
+        font-size: 2.70vw;
+    }
+
+
+    .about-cards-div {
+        grid-template-columns: 1fr;
+
+
+    }
+
+    .card-about p {
+        padding-top: 2%;
+        font-size: 1rem;
+
+    }
+
+    .card-icon {
+        font-size: 0.7rem;
+    }
+
+
+    .projects-box-div {
+        grid-template-columns: 1fr;
+    }
+
+    .form-div {
+        width: 80%;
+    }
+
+    .footer {
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+
+}
+
+
+@media (max-width: 375px) {
+
+
+    .banner-info h3 {
+        font-size: 4.6vw;
+    }
+
+    .banner-info h2 {
+        font-size: 4.6vw;
+    }
+
+    .cards-div {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .cards-div {
+        display: grid;
+        font-size: 3.90vw;
+
+    }
+
+    .card {
+        height: 9.85rem;
+    }
+
+    .cards-div-hobbie {
+        grid-template-columns: 1fr;
+    }
+
+    .cards-div-hobbie {
+        display: grid;
+        font-size: 3.40vw;
+    }
+
+    .card-hobbie {
+        height: 7.95rem;
+        margin-bottom: 1.5rem;
+    }
+
+
+    .about-cards-div {
+        grid-template-columns: 1fr;
+
+
+    }
+
+    .card-about h1 {
+        padding-top: 12%;
+        font-size: 1rem;
+    }
+
+
+    .card-about p {
+        padding-top: 2%;
+        font-size: 0.8rem;
+
+    }
+
+    .card-icon {
+        font-size: 0.7rem;
+    }
+
+
+    .projects-box-div {
+        grid-template-columns: 1fr;
+    }
+
+    .form-div {
+        width: 80%;
+    }
+
+    .footer {
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+
+}
