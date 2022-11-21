@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <link rel="stylesheet" href="./css/index.css" type="text/css">
+    <link rel="stylesheet" href="./css/responsive.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" type="imagem/x-icon" href="./img/logo.png">
+    <title>Site Responsive - Antônio S.F</title>
+</head>
+
+<body>
+
+    <header class="header center">
+        <div class="logo">
+            <h1 onclick="window.location.href='index.html'"><span class="logo-span">A</span>.S.<span>F</span></h1>
+        </div>
+
+        <div class="link">
+            <a href="index.html" class="active">Home</a>
+            <a href="#services">Skills</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#about">Formação</a>
+            <a href="#project">Projetos</a>
+            <a href="#contact">Contato</a>
+            <a class="more" onclick="showMoreLinks()" id="moreBtn"><i class="fas fa-bars"></i></a>
+        </div>
+    </header>
+
+    <section class="responsive-header center" id="resHead">
+        <div class="responsive-link">
+            <a href="index.html" class="active">Home</a>
+            <a href="#services">Skills</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#about">Formação</a>
+            <a href="#project">Projetos</a>
+            <a href="#contact">Contato</a>
+        </div>
+
+    </section>
+
+    <section class="banner center">
+        <div class="banner-img-div">
+            <img src="./img/teste3.webp" class="banner-img">
+        </div>
+
+        <div class="banner-info">
+            <h1><span style="color: #16507b;">S</span>obre<span style="color:#16507b;"> M</span>im</h1>
+            <img src="./img/profile.jpg" alt="img profile">
+
+            <div class="banner-text">
+                <h3>OLa</h3>
+                <h2> <span style="color: #16507b;">M</span>eu nome é: <span style="color: #16507b;">A</span>ntônio</h2>
+                <p>Sou um entusiasta na área de tecnologia. Em busca de novos desafios na área de Desenvolvimento.
+                    <span>Estou em uma transição </span>de carreira.
+                    Aperfeiçoando a cada dia...
+                </p>
+            </div>
+
+            <!--social-->
+
+            <div class="social">
+                <a href="https://github.com/antonysf" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/antonio-figueiredo-dev/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+
+
+
+            <div class="banner-btn-div">
+                <button class="start-btn"><a href="#about" style="text-decoration: none; color: #fff;"><i
+                            class="fa-solid fa-pencil"></i> Saiba mais</a></button>
+                <button class="login-btn"><a href="login.html" style="text-decoration: none; color: #fff;"><i
+                            class="fa-solid fa-pencil"></i> Login</a></button>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!--cards skills-->
+    <h1 class="services" id="services"><span style="color: #16507b;">S</span>kills</h1>
+
+    <div class="cards-div center">
+        <div class="card">
+            <h1>Html</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <img src="./img/html.png" alt="icon-html">
+        </div>
+
+        <div class="card">
+            <h1>Css</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <img src="./img/css1.png" alt="icon-html">
+        </div>
+
+        <div class="card">
+            <h1>Flexbox</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <img src="./img/flexbox.png" alt="icon-flexbox">
+        </div>
+
+        <div class="card">
+            <h1>JavaScript</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <img src="./img/js.png" alt="icon-JavaScript">
+        </div>
+
+        <div class="card">
+            <h1>Java</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <img src="./img/java.png" alt="icon-html">
+        </div>
+
+        <div class="card">
+            <h1>Mysql</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <img src="./img/mysql.png" alt="icon-html">
+        </div>
+
+        <div class="card">
+            <h1>PHP</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <img src="./img/php.png" alt="icon-html">
+        </div>
+
+        <div class="card">
+            <h1>Node</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <img src="./img/node.png" alt="icon-html">
+        </div>
+    </div>
+    <!--cards skills-->
+
+
+    <!--hobbies-->
+    <h1 class="hobbies" id="hobbies"><span style="color: #16507b;">H</span>obbies</h1>
+
+
+    <section class="cards center">
+        <div class="cards-div-hobbie center">
+            <div class="card-hobbie">
+                <h1>Andar de Bike</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <img src="./img/bike.png" alt="icon-bike">
+            </div>
+
+            <div class="card-hobbie">
+                <h1>Ouvir Música</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <img src="./img/musica.png" alt="icon-música">
+            </div>
+
+            <div class="card-hobbie">
+                <h1>Assistir Séries</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <img src="./img/series.png" alt="icon-séries">
+            </div>
+
+            <div class="card-hobbie">
+                <h1>Viajar</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <img src="./img/viagem.png" alt="icon-viagem">
+            </div>
+        </div>
+    </section>
+    <!--hobbies-->
+
+    <!--formação-->
+    <h1 class="formation" id="about"><span style="color: #16507b;">F</span>ormação </h1>
+
+    <section class="about-us center">
+
+        <div class="about-cards-div center">
+            <div class="card-about">
+                <span class="card-icon"><i class="fa-solid fa-book-open-reader"></i></span>
+                <h1>Sistemas de Informação</h1>
+                <p>Conclusão dez - 2010 Faculdade Anhanguera DF </p>
+
+            </div>
+
+            <div class="card-about">
+                <span class="card-icon"><i class="fa-solid fa-book-open"></i></span>
+                <h1>Projetos de Apps Móveis</h1>
+                <p>Conclusão mar - 2022 Faculdade Digital Desconplica </p>
+
+            </div>
+
+            <div class="card-about">
+                <span class="card-icon"><i class="fa-regular fa-folder-open"></i></span>
+                <h1>Desenvolvedor Fullstack Júnior</h1>
+                <p>Conclusão jun - 2022 .StartSe Tech Academy </p>
+
+            </div>
+
+            <div class="card-about">
+
+                <span class="card-icon"><i class="fa-solid fa-laptop-file"></i></span>
+                <h1>Desenvolvedor Fullstack Júnior </h1>
+                <p>Conclusão jan - 2023 Alura - ONE Oracle Next Education</p>
+
+            </div>
+        </div>
+    </section>
+    <!--formação-->
+
+    <!--projects-->
+    <h1 class="project" id="project"><span style="color: #16507b;">P</span>rojetos</h1>
+
+    <section class="projects center" id="projects">
+
+        <div class="projects-box-div center">
+            <div class="projects-box">
+
+                <img src="./img/decodificador.png" alt="img decodificador de texto" class="projects-img">
+                <!--overlay sobreposição -->
+                <div class="projects-overlay">
+                    <h2>Decodificador de Texto</h2>
+
+                    <div class="project-btn">
+
+                        <button class="repo-btn"><a href="https://antonysf.github.io/Projeto_One_Oracle_Encriptador/"
+                                target="_blank" style="text-decoration: none; color: #fff;"><i
+                                    class="fa-solid fa-pencil"></i> Repositório</a></button>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="projects-box">
+
+                <img src="./img/jogodaforca.png" alt="img jogo da forca" class="projects-img">
+                <!--overlay sobreposição -->
+                <div class="projects-overlay">
+                    <h2>Jogo da Forca</h2>
+
+                    <div class="project-btn">
+
+                        <button class="repo-btn"><a
+                                href="https://antonysf.github.io/Projeto_One_Oracle_Jogo_da_forca/indexJogo.html"
+                                target="_blank" style="text-decoration: none; color: #fff;"><i
+                                    class="fa-solid fa-pencil"></i> Repositório</a></button>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="projects-box">
+
+                <img src="./img/tiro-alvo.png" alt="img acerta no alvo" class="projects-img">
+                <!--overlay sobreposição -->
+                <div class="projects-overlay">
+                    <h2>Jogo Tiro ao alvo</h2>
+
+                    <div class="project-btn">
+
+                        <button class="repo-btn"><a
+                                href="https://antonysf.github.io/Projeto-StartSe-Jogo-html-javaScript-css/"
+                                target="_blank" style="text-decoration: none; color: #fff;"><i
+                                    class="fa-solid fa-pencil"></i> Repositório</a></button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--projects-->
+
+    <!--contact br -->
+    <section class="contact-br" id="contact">
+        <h1 class="contact" id="contacts"><span style="color: #16507b;">C</span>ontato <span
+                style="color: #16507b;">B</span>r</h1>
+        <div class="form-div center">
+            <label style="color: #d6dfe2;">Nome</label>
+            <input type="text" class="input name" placeholder=" Digite seu nome..." required>
+
+            <label style="color: #d6dfe2;">E-mail</label>
+            <input type="email" name="" class="input email" placeholder=" Digite seu E-mail..." id="" required>
+
+            <label style="color: #d6dfe2;">Mensagem</label>
+            <textarea name="" class="input message" cols="30" rows="10" style="height: 80px;"
+                placeholder=" Digite sua mensagem..." id="" required></textarea>
+
+            <button type="submit" class="send-btn center"><i class="fas fa-paper-plane"></i> Enviar</button>
+
+
+        </div>
+
+    </section>
+    <!--contact br -->
+
+    <!--footer -->
+    <button id="scrollBtn" onclick="topScroll()" title="Black to top"><i class="fas fa-arrow-up"></i></button>
+
+    <footer class="footer">
+        <div>
+            <h5>Tech Exemplo</h5>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <p>&copy 2022 Antônio S.F</p>
+        </div>
+
+        <div class="footer-second">
+            <p>Lorem Ipsum is:</p>
+            <p>teste@email.com</p>
+            <div class="icon-flex">
+                <a href="https://github.com/antonysf" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/antonio-figueiredo-dev/" target="_blank"><i class="fab fa-linkedin"></i></a>                
+                <a><i class="fab fa-instagram"></i></a>                
+                <a><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+    <!--footer -->
+
+
+
+    <!--script Email Js link-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <!--Sweet alert Js-->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("SsOKX2kzyfHeXwhHI");
+        })();
+    </script>
+
+    <script src="./js/index.js"></script>
+
+</body>
+
+</html>
