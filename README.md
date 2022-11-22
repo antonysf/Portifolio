@@ -1,9 +1,6 @@
 # Portifolio
 Portifólio criado para mostrar meus projetos já criados e minha formação acadêmica entre outros...
 
-
-# Projeto_One_Oracle_Jogo_da_forca
-Construção de um jogo da forca usando html, css, e Javascript
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/antonysf) 
 
 ## Sobre o projeto
